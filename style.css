@@ -1,0 +1,255 @@
+/*Nav Bar CSS*/
+nav {
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    
+a {
+        color: #1b2223;
+        margin: 10px;
+        text-decoration: none;
+        font-family: 'CustomFont', Arial, sans-serif;
+        font-weight: bold;
+    }
+/*Global CSS Below*/
+body {
+      	background: rgb(67,206,162);
+        background: linear-gradient(45deg, rgba(67,206,162,1) 3%, rgba(46,189,154,1) 43%, rgba(24,90,157,1) 86%);
+}
+
+.header {
+        width: 100%;
+        height: auto;
+      	align-items: center;
+      	display: inline;
+      	justify-content: center;
+}
+
+/*Homepage CSS Below*/
+ #home-image {
+        border-radius: 50%;
+	      border: 5px solid #f4fefd;
+	      object-fit: cover;
+	      margin: 0 auto;
+	      margin-top: 10px;
+	      margin-left: 33%;
+  }
+   
+.home-name {
+        text-align: center;
+        color: #f4fefd;
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  }
+
+.media-container {
+        background: linear-gradient(45deg, #085f63, #49beb7, #32dbc6, #ebefd0);
+        height: 550px;
+        width: 90vw;
+        text-align:center;
+        margin: auto; 
+        padding-top: 15px;
+        border-radius: 20px;    
+    }
+
+#codm {
+        border-radius: 10px;
+        border: 3px solid #f4fefd;
+    }
+    
+
+.container-title, h2 {
+        margin-top: 10px;
+        color: #f4fefd;
+    }   
+    
+p {
+        color: #f4fefd;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: "Times New Roman", Times, serif;
+    }
+    
+audio {
+        margin: 10px;
+    }
+    
+.dog-cell {
+        height: 900px;
+        width: 90vw;
+        margin:auto;
+        border-radius: 20px;
+        text-align: center;
+        padding-top: 5px;
+        margin-top: 30px;
+        background: linear-gradient(45deg, #085f63, #49beb7, #32dbc6, #ebefd0);
+     }
+   
+.layla-riley {
+         height: 300px;
+         width: 300px;   
+         margin: auto; 
+         object-fit: cover;
+         border: 3px solid #1b2223;   
+     }  
+     
+#parvo {
+        text-decoration: none;
+        color: #f4fefd; 
+    }
+    
+    
+/*Table Activity Page CSS*/ 
+.coverpic {
+        background-image: url("tableCover.svg");
+        padding: 10px;
+        filter: url(#blurFilter);
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+.table-name {
+       color: #f4fefd;
+       margin-left: 20px;
+       width: 350px;
+       text-align: center;
+       border-radius: 10px;
+       padding: 10px 0;
+       background: rgb(67,206,162);
+       background: linear-gradient(180deg, rgba(67,206,162,1) 3%, rgba(46,189,154,1) 43%, rgba(24,90,157,1) 86%);
+       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#display {
+      	border-radius: 50%;
+      	border: 3px solid #3c5898;
+      	object-fit: cover;
+      	margin: 15px auto;
+        width: 40vw;
+        height: 40vw;
+
+}
+
+.table1 {
+       	background-color: #f4fefd;
+      	justify-content:center;
+      	margin-right: auto;
+      	margin-left:auto;
+      	border-collapse: collapse;
+      	margin-top: 30px;
+      	font-family: "Courier New", Courier, monospace;
+}
+
+.table-image {
+       object-fit: cover;
+       border: 3px solid #3c5898;
+           
+} 
+th, td {
+       border: 2px solid black;
+       padding: 8px;
+}
+
+.table-container {
+       border-radius: 20px;
+       padding: 20px;
+       width: 900px;
+       height: 900px; 
+       margin: auto;
+ }
+
+/*Activities Page CSS*/
+.containers {
+  width: 90vw;
+  height: 500px;
+  margin: 30px auto;
+  text-align: center;
+  border-radius: 15px;
+  color: #f4fefd;
+  background: rgb(47, 255, 249);
+  background: linear-gradient(180deg, rgba(47, 255, 249, 1) 13%, rgba(78, 129, 188, 1) 75%);
+  position: relative;
+}
+
+.containers::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 0 30px 5px rgba(47, 255, 249, 1); /* Adjust the shadow color as needed */
+  border-radius: 15px;
+}
+
+#h1 {
+        font-size: 2em;
+}
+/**/
+
+.activity-names {
+  background: linear-gradient(45deg, #f4c120, #e2294c, #571845);
+  width: 20vw;
+  margin: 15px auto;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.title {
+        padding: 5px;
+        margin: 10px auto;
+        background: linear-gradient(45deg, #ffff8c, #ff9387, #ff3182);
+}
+
+#h1, #h2, #h3, #h4, #h5, #h6 {
+  font-family: Georgia, serif;
+}
+
+#actTable {
+        margin: auto;
+        color: #1b2226;
+        background-color: #f4fefd;
+        height: auto;
+        width: 700px;
+        border-collapse: collapse;
+        border: 1px solid;
+    }
+    
+.activity3 {
+        height: 300px;
+        width: 700px;
+        object-fit: cover;
+        border: 3px solid #0ef6cc;
+    }
+    
+video {
+        height: 300px;
+        width: 700px;
+        object-fit: cover;
+        border: 3px solid #0ef6cc;
+    }
+
+/*Footer CSS Below*/
+footer {
+        width: 100%;
+        height: 100px;
+        padding-top: 10px;
+        margin-top: 20px;
+        background-color: #c6e6ff;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 2px;
+    }
+.footP {
+       color: #000000;
+       font-weight: 500;
+       font-family: "Lucida Console", Monaco, monospace;
+}
+.mail {
+       text-decoration: none;
+}
